@@ -2,7 +2,7 @@
 
 namespace App\Product\Domain;
 
-use App\AddressBook\Infrastructure\Domain\ProductRepository;
+use App\Product\Infrastructure\Domain\ProductRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ProductRepository::class)]
